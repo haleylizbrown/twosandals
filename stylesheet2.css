@@ -1,3 +1,93 @@
-*{
-  font-family: Artifika, serif;
+@font-face {
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Artifika Regular'), local('Artifika-Regular'), url(https://fonts.gstatic.com/s/artifika/v8/KUmbsEUmwZBks8S_dFROo3YhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html{
+  font-family: 'Artifika', serif;
+  width: 100%;
+  background-color: rgba(42, 127, 59, 0.5);
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(42, 127, 59);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: auto;
+}
+
+nav ul li{
+  display: inline;
+  color: black;
+  padding-left: 2rem;
+  left: 100%;
+}
+
+h1 {
+  padding-right: 2rem;
+}
+
+p {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-style: italic;
+  position: relative;
+  top: 8rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.content {
+  margin-top: 1rem;
+  position: relative;
+  top: 12rem;
+}
+
+.content ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.content ul li{
+  display: inline;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.soups,
+.salads,
+.desserts {
+  width: 15.625rem;
+  margin-top: 2rem;
+}
+
+.soups img ol {
+  display: flex;
+}
+
+#home {
+  padding-left: 0;
 }

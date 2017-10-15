@@ -1,3 +1,50 @@
-*{
-  font-family: Artifika, serif;
+@font-face {
+  font-family: 'Artifika';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Artifika Regular'), local('Artifika-Regular'), url(https://fonts.gstatic.com/s/artifika/v8/KUmbsEUmwZBks8S_dFROo3YhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html{
+  font-family: 'Artifika', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: rgba(42, 127, 59, 0.5);
+}
+
+iframe {
+  border: solid green 1rem;
+  border-style: groove;
+
+}
+
+.headertext {
+  display: flex;
+  text-align: center;
+}
+
+.headertext img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.slogan h3 {
+  text-align:center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.homelink {
+  display: flex;
+  justify-content: center;
+}
+
+#entertext {
+  text-align: center;
 }
